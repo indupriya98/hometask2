@@ -52,7 +52,9 @@ public class demomain {
         		Iterator<String> itr=req.iterator();
         		while(itr.hasNext()) {
         			System.out.println(itr.next());
-        		}       		
+        		}   
+			float weight=start/10.0;
+			System.out.println("Total weight of sweets selected"+weight);
         	}
         }
         else if(ans==2) {
