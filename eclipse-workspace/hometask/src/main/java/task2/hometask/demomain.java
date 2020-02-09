@@ -54,7 +54,7 @@ public class demomain {
         			System.out.println(itr.next());
         		}   
 			float weight=start/10.0;
-			System.out.println("Total weight of sweets selected"+weight);
+			System.out.println("Total weight of sweets selected"+weight+"kg");
         	}
         }
         else if(ans==2) {
